@@ -1,0 +1,16 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--color-dark);
+		color: var(--color-white);
+	}
+
+	a {
+		color: var(--color-white);
+	}
+
+	/* Swiper JS */
+	.swiper-pagination-bullet,
+	.swiper-pagination-bullet-active {
+		background: var(--color-white);
+	}
+}

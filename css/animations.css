@@ -1,0 +1,44 @@
+/* Read more button animation */
+.top-bottom-button img {
+	animation-name: read-button-anime;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+@keyframes read-button-anime {
+	0% {
+		transform: translateY(-22px);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(0);
+		animation-iteration-count: 1;
+		opacity: 100%;
+	}
+	100% {
+		transform: translateY(22px);
+		opacity: 0;
+	}
+}
+
+/* Hi animation - Presentation */
+.hi-name .hi-emoji {
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+
+.hi-name:hover .hi-emoji {
+	animation-name: hi-animation;
+}
+
+@keyframes hi-animation {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(20deg);
+	}
+}

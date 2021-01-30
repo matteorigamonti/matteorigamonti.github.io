@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<!--
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title page -->
+		<title>Matteo Rigamonti</title>
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.ico" />
+		<link rel="icon" type="image/ico" sizes="32x32" href="img/favicon/favicon-32x32.ico" />
+		<link rel="icon" type="image/ico" sizes="16x16" href="img/favicon/favicon-16x16.ico" />
+
+		<!-- Bootstrap CSS 
+		<link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+		<link rel="preload" href="css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+		<noscript><link rel="stylesheet" href="css/bootstrap.min.css" /></noscript>
+
+		<!-- Swiper JS -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/animations.css" />
+		<link rel="stylesheet" href="css/dark-mode.css" />
+
+		<!-- Kit Font Awesome -->
+		<script src="https://kit.fontawesome.com/2b3350905d.js" crossorigin="anonymous"></script>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180341014-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-180341014-1");
+		</script>
+	</head>
+	<body>
+		<main class="overflow-x-hidden">
+			<!-- ########## Hero presentation ########## -->
+			<div class="container h-100">
+				<div class="presentation row align-items-center vh-100 position-relative">
+					<div class="col-12">
+						<div class="presentation-box">
+							<h1 style="font-size: 3.5em" class="mb-2 hi-name font-weight-light">Ciao, mi chiamo <b>Matteo</b> <span class="hi-emoji">👋</span></h1>
+							<h1 class="h4 font-weight-light mb-4">
+								Sono un <b>web designer</b> e <b class="d-inline-block">Front-end developer</b><br />
+								specializzato in <b>WordPress</b>, ho collaborato con web agency e lavorato come freelance, realizzando siti internet sviluppandone la parte grafica e del codice con un’attenzione alla UX.
+							</h1>
+							<a href="https://www.linkedin.com/in/matteo-rigamonti/" target="_blank" class="text-decoration-none mr-4"><i class="fab fa-linkedin h3 mb-0"></i> </a>
+							<a href="mailto:matteo_rigamonti@hotmail.it" target="_blank" class="text-decoration-none mr-4"><i class="fab fas fa-envelope h3 mb-0"></i> </a>
+							<a href="tel:+393486741003" class="text-decoration-none mr-4"><i class="fab fas fa-mobile h3 mb-0"></i> </a>
+						</div>
+					</div>
+					<div class="col-12 position-absolute mb-4" style="bottom: 0">
+						<div class="top-bottom-button">
+							<a href="#works">
+								<i class="fas fa-arrow-down"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Gradient morph -->
+				<div class="gradient-box">
+					<canvas class="gradient-cool" id="canvas-basic"></canvas>
+				</div>
+			</div>
+
+			<!-- ########## Portfolio ########## -->
+			<div id="works" class="container mt-7 mb-7 sm-mt-12">
+				<div class="row mb-sm-3">
+					<div class="col-12">
+						<h2>Lavori selezionati</h2>
+					</div>
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide work">
+							<a href="https://www.sogevasrl.com/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
+								<img class="img-fluid" src="img/sogeva-thumbnail.jpg" alt="Sogeva srl" />
+								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #25823d">
+									<div class="title-box mb-3">
+										<h4>Sogeva srl</h4>
+									</div>
+									<div class="info-meta d-flex flex-row">
+										<small class="d-inline-block" style="margin-right: 0.5em">2020</small>
+										<div class="separator-container">
+											<hr class="separator" />
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide work">
+							<a href="https://www.luxurywooditaly.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
+								<img class="img-fluid" src="img/luxury-wood-thumbnail.jpg" alt="Luxury Wood Italy" />
+								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #b4986c">
+									<div class="title-box mb-3">
+										<h4>Luxury Wood Italy</h4>
+									</div>
+									<div class="info-meta d-flex flex-row">
+										<small class="d-inline-block" style="margin-right: 0.5em">2019</small>
+										<div class="separator-container">
+											<hr class="separator" />
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide work">
+							<a href="http://pneumatici.autocogliati.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
+								<img class="img-fluid" src="img/pneumatici-autocogliati-thumbnail.jpg" alt="Luxury Wood Italy" />
+								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #dc332b">
+									<div class="title-box mb-3">
+										<h4>Pneumatici Autocogliati</h4>
+									</div>
+									<div class="info-meta d-flex flex-row">
+										<small class="d-inline-block" style="margin-right: 0.5em">2019</small>
+										<div class="separator-container">
+											<hr class="separator" />
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide work">
+							<a href="http://losapierluigi.com/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
+								<img class="img-fluid" src="img/losa-pier-luigi-thumbnail.jpg" alt="Losa Pier Luigi" />
+								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #eb1f3e">
+									<div class="title-box mb-3">
+										<h4>Losa Pier Luigi</h4>
+									</div>
+									<div class="info-meta d-flex flex-row">
+										<small class="d-inline-block" style="margin-right: 0.5em">2018</small>
+										<div class="separator-container">
+											<hr class="separator" />
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide work">
+							<a href="https://www.casapreziosissimosangue.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
+								<img class="img-fluid" src="img/casa-preziosissimo-sangue-thumbnail.jpg" alt="Casa Preziossissimo Sangue" />
+								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #722120">
+									<div class="title-box mb-3">
+										<h4>Casa Preziossissimo Sangue</h4>
+									</div>
+									<div class="info-meta d-flex flex-row">
+										<small class="d-inline-block" style="margin-right: 0.5em">2018</small>
+										<div class="separator-container">
+											<hr class="separator" />
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide work">
+							<a href="http://timack.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
+								<img class="img-fluid" src="img/timack-thumbnail.jpg" alt="Timack srl" />
+								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #0099ff">
+									<div class="title-box mb-3">
+										<h4>Timack srl</h4>
+									</div>
+									<div class="info-meta d-flex flex-row">
+										<small class="d-inline-block" style="margin-right: 0.5em">2017</small>
+										<div class="separator-container">
+											<hr class="separator" />
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+
+			<!-- ########## Course of study ########## 
+			<div class="container my-7 mb-mb-0">
+				<div class="row mb-sm-3">
+					<div class="col-12">
+						<h2>Corsi e studi</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 mb-5 mb-md-0">
+						<h5>Corsi</h5>
+						<small>2019</small>
+						<h4>
+							<a href="https://marchettidesignshop.com/next-level-wp-pro/" target="_blank" class="text-decoration-none"
+								>Corso NLWP PRO <sup><i class="fas fa-external-link-alt"></i></sup
+							></a>
+						</h4>
+					</div>
+
+					<div class="col-12 col-md-6 mb-5 mb-md-0">
+						<h5>Studi</h5>
+						<small>2010 - 2016</small>
+						<h4>Scuola d'Arte Andrea Fantoni</h4>
+					</div>
+				</div>
+			</div>-->
+
+			<footer>
+				<a href="https://www.iubenda.com/privacy-policy/35281125" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
+				<script>
+					(function (w, d) {
+						var loader = function () {
+							var s = d.createElement("script"),
+								tag = d.getElementsByTagName("script")[0];
+							s.src = "https://cdn.iubenda.com/iubenda.js";
+							tag.parentNode.insertBefore(s, tag);
+						};
+						if (w.addEventListener) {
+							w.addEventListener("load", loader, false);
+						} else if (w.attachEvent) {
+							w.attachEvent("onload", loader);
+						} else {
+							w.onload = loader;
+						}
+					})(window, document);
+				</script>
+			</footer>
+		</main>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"></script>
+
+		<script src="/js/granim.min.js"></script>
+
+		<!-- Typewrite effect -->
+		<script src="js/typewrite.js"></script>
+
+		<!-- Scripts / init JS -->
+		<script src="js/granim-init.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/swiper-init.js"></script>
+	</body>
+</html>
