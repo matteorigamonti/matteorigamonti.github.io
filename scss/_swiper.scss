@@ -1,0 +1,15 @@
+.swiper-container {
+	overflow: visible;
+}
+
+.swiper-slide {
+	height: auto;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+	bottom: -50px;
+}
+
+.swiper-pagination-bullet-active {
+	background: $colorDark;
+}

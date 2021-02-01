@@ -1,9 +1,11 @@
 /* Read more button animation */
-.top-bottom-button img {
-	animation-name: read-button-anime;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-out;
+.top-bottom-button {
+	img {
+		animation-name: read-button-anime;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-out;
+	}
 }
 
 @keyframes read-button-anime {
@@ -23,15 +25,17 @@
 }
 
 /* Hi animation - Presentation */
-.hi-name .hi-emoji {
-	animation-duration: 0.5s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-direction: alternate;
-}
+.hi-name {
+	.hi-emoji {
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate;
+	}
 
-.hi-name:hover .hi-emoji {
-	animation-name: hi-animation;
+	&:hover .hi-emoji {
+		animation-name: hi-animation;
+	}
 }
 
 @keyframes hi-animation {
