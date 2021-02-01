@@ -20,13 +20,9 @@
 
 		<!-- Swiper JS -->
 		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" />
-
-		<!-- Kit Font Awesome -->
-		<script src="https://kit.fontawesome.com/2b3350905d.js" crossorigin="anonymous"></script>
 
 		<!-- Google Font -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
@@ -86,7 +82,11 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide work">
 							<a href="https://www.sogevasrl.com/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
-								<img class="img-fluid" src="img/sogeva-thumbnail.jpg" alt="Sogeva srl" />
+								<picture>
+									<source srcset="img/sogeva-thumbnail.webp" type="image/webp" />
+									<source srcset="img/sogeva-thumbnail.jpg" type="image/jpeg" />
+									<img class="img-fluid" src="img/sogeva-thumbnail.jpg" alt="Sogeva srl" />
+								</picture>
 								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #25823d">
 									<div class="title-box mb-3">
 										<h4>Sogeva srl</h4>
@@ -102,7 +102,11 @@
 						</div>
 						<div class="swiper-slide work">
 							<a href="https://www.luxurywooditaly.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
-								<img class="img-fluid" src="img/luxury-wood-thumbnail.jpg" alt="Luxury Wood Italy" />
+								<picture>
+									<source srcset="img/luxury-wood-thumbnail.webp" type="image/webp" />
+									<source srcset="img/luxury-wood-thumbnail.jpg" type="image/jpeg" />
+									<img class="img-fluid" src="img/luxury-wood-thumbnail.jpg" alt="Luxury Wood Italy" />
+								</picture>
 								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #b4986c">
 									<div class="title-box mb-3">
 										<h4>Luxury Wood Italy</h4>
@@ -118,7 +122,11 @@
 						</div>
 						<div class="swiper-slide work">
 							<a href="http://pneumatici.autocogliati.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
-								<img class="img-fluid" src="img/pneumatici-autocogliati-thumbnail.jpg" alt="Luxury Wood Italy" />
+								<picture>
+									<source srcset="img/pneumatici-autocogliati-thumbnail.webp" type="image/webp" />
+									<source srcset="img/pneumatici-autocogliati-thumbnail.jpg" type="image/jpeg" />
+									<img class="img-fluid" src="img/pneumatici-autocogliati-thumbnail.jpg" alt="Pneumatici Autocogliati" />
+								</picture>
 								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #dc332b">
 									<div class="title-box mb-3">
 										<h4>Pneumatici Autocogliati</h4>
@@ -134,7 +142,11 @@
 						</div>
 						<div class="swiper-slide work">
 							<a href="http://losapierluigi.com/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
-								<img class="img-fluid" src="img/losa-pier-luigi-thumbnail.jpg" alt="Losa Pier Luigi" />
+								<picture>
+									<source srcset="img/losa-pier-luigi-thumbnail.webp" type="image/webp" />
+									<source srcset="img/losa-pier-luigi-thumbnail.jpg" type="image/jpeg" />
+									<img class="img-fluid" src="img/losa-pier-luigi-thumbnail.jpg" alt="Losa Pier Luigi" />
+								</picture>
 								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #eb1f3e">
 									<div class="title-box mb-3">
 										<h4>Losa Pier Luigi</h4>
@@ -150,7 +162,11 @@
 						</div>
 						<div class="swiper-slide work">
 							<a href="https://www.casapreziosissimosangue.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
-								<img class="img-fluid" src="img/casa-preziosissimo-sangue-thumbnail.jpg" alt="Casa Preziossissimo Sangue" />
+								<picture>
+									<source srcset="img/casa-preziosissimo-sangue-thumbnail.webp" type="image/webp" />
+									<source srcset="img/casa-preziosissimo-sangue-thumbnail.jpg" type="image/jpeg" />
+									<img class="img-fluid" src="img/casa-preziosissimo-sangue-thumbnail.jpg" alt="Casa Preziossissimo Sangue" />
+								</picture>
 								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #722120">
 									<div class="title-box mb-3">
 										<h4>Casa Preziossissimo Sangue</h4>
@@ -166,7 +182,11 @@
 						</div>
 						<div class="swiper-slide work">
 							<a href="http://timack.it/" target="_blank" class="text-decoration-none d-flex flex-column h-100">
-								<img class="img-fluid" src="img/timack-thumbnail.jpg" alt="Timack srl" />
+								<picture>
+									<source srcset="img/timack-thumbnail.webp" type="image/webp" />
+									<source srcset="img/timack-thumbnail.jpg" type="image/jpeg" />
+									<img class="img-fluid" src="img/timack-thumbnail.jpg" alt="Timack srl" />
+								</picture>
 								<div class="p-4 d-flex flex-column justify-content-between h-100" style="background-color: #0099ff">
 									<div class="title-box mb-3">
 										<h4>Timack srl</h4>
@@ -213,12 +233,18 @@
 		<script src="js/jquery-3.5.1.slim.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 
+		<!-- Scripts / init JS -->
+		<script src="js/scripts-init.js"></script>
+
 		<!-- Granim JS -->
 		<script src="/js/granim.min.js"></script>
-
-		<!-- Scripts / init JS -->
 		<script src="js/granim-init.js"></script>
-		<script src="js/scripts-init.js"></script>
+
+		<!-- Kit Font Awesome -->
+		<script src="https://kit.fontawesome.com/2b3350905d.js" crossorigin="anonymous"></script>
+
+		<!-- Swiper JS -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script src="js/swiper-init.js"></script>
 	</body>
 </html>
