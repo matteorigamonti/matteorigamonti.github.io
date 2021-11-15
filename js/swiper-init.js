@@ -1,5 +1,5 @@
 // SWIPER
-var swiper = new Swiper(".swiper-container", {
+var swiper = new Swiper(".card-slider-container", {
 	spaceBetween: 25,
 	breakpoints: {
 		1024: {
