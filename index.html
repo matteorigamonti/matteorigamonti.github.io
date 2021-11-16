@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/main.min.css" />
 
 		<!-- Google Font -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
@@ -45,7 +45,7 @@
 							<h1 class="fs-3">
 								<div class="fs-1">Ciao, mi chiamo Matteo <span class="hi-emoji">👋</span></div>
 
-								<div class="fs-2">Front-end developer specializzato in <b>WordPress</b> 👨‍💻</span>,</div>
+								<div class="fs-2">Front-end developer specializzato in <b>WordPress</b> 👨‍💻,</div>
 								<br />ho collaborato con web agency e lavorato come freelance, realizzando siti internet sviluppandone la parte grafica e del codice con un’attenzione alla UX.
 							</h1>
 							<div class="social-icon-container fs-2">
@@ -54,7 +54,7 @@
 								<a href="tel:+393486741003" class="text-decoration-none mr-4"><span class="icon-mobile"></span></a>
 							</div>
 							<a href="#works">
-								<span class="icon-arrow-down"></span>
+								<span class="icon-arrow-down fs-2"></span>
 							</a>
 						</div>
 					</div>
@@ -85,7 +85,7 @@
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="https://www.luxurywooditaly.it/" target="_blank" class="card-item">
+							<a href="https://www.luxurywooditaly.it/" target="_blank" class="card">
 								<picture>
 									<source srcset="img/luxury-wood-thumbnail.webp" type="image/webp" />
 									<source srcset="img/luxury-wood-thumbnail.jpg" type="image/jpeg" />
@@ -98,7 +98,7 @@
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="http://pneumatici.autocogliati.it/" target="_blank" class="card-item">
+							<a href="http://pneumatici.autocogliati.it/" target="_blank" class="card">
 								<picture>
 									<source srcset="img/pneumatici-autocogliati-thumbnail.webp" type="image/webp" />
 									<source srcset="img/pneumatici-autocogliati-thumbnail.jpg" type="image/jpeg" />
@@ -111,7 +111,7 @@
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="http://losapierluigi.com/" target="_blank" class="card-item">
+							<a href="http://losapierluigi.com/" target="_blank" class="card">
 								<picture>
 									<source srcset="img/losa-pier-luigi-thumbnail.webp" type="image/webp" />
 									<source srcset="img/losa-pier-luigi-thumbnail.jpg" type="image/jpeg" />
@@ -124,7 +124,7 @@
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="https://www.casapreziosissimosangue.it/" target="_blank" class="card-item">
+							<a href="https://www.casapreziosissimosangue.it/" target="_blank" class="card">
 								<picture>
 									<source srcset="img/casa-preziosissimo-sangue-thumbnail.webp" type="image/webp" />
 									<source srcset="img/casa-preziosissimo-sangue-thumbnail.jpg" type="image/jpeg" />
@@ -137,7 +137,7 @@
 							</a>
 						</div>
 						<div class="swiper-slide">
-							<a href="http://timack.it/" target="_blank" class="card-item">
+							<a href="http://timack.it/" target="_blank" class="card">
 								<picture>
 									<source srcset="img/timack-thumbnail.webp" type="image/webp" />
 									<source srcset="img/timack-thumbnail.jpg" type="image/jpeg" />
@@ -152,33 +152,30 @@
 							</a>
 						</div>
 					</div>
-					<div style="position: relative">
-						<div class="swiper-pagination"></div>
-					</div>
 				</div>
 			</div>
-
-			<footer>
-				<a href="https://www.iubenda.com/privacy-policy/35281125" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
-				<script>
-					(function (w, d) {
-						var loader = function () {
-							var s = d.createElement("script"),
-								tag = d.getElementsByTagName("script")[0];
-							s.src = "https://cdn.iubenda.com/iubenda.js";
-							tag.parentNode.insertBefore(s, tag);
-						};
-						if (w.addEventListener) {
-							w.addEventListener("load", loader, false);
-						} else if (w.attachEvent) {
-							w.attachEvent("onload", loader);
-						} else {
-							w.onload = loader;
-						}
-					})(window, document);
-				</script>
-			</footer>
 		</main>
+
+		<footer>
+			<a href="https://www.iubenda.com/privacy-policy/35281125" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
+			<script>
+				(function (w, d) {
+					var loader = function () {
+						var s = d.createElement("script"),
+							tag = d.getElementsByTagName("script")[0];
+						s.src = "https://cdn.iubenda.com/iubenda.js";
+						tag.parentNode.insertBefore(s, tag);
+					};
+					if (w.addEventListener) {
+						w.addEventListener("load", loader, false);
+					} else if (w.attachEvent) {
+						w.attachEvent("onload", loader);
+					} else {
+						w.onload = loader;
+					}
+				})(window, document);
+			</script>
+		</footer>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

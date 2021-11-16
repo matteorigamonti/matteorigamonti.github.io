@@ -1,9 +1,31 @@
+.swiper-slide {
+	height: auto;
+}
+
 .card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	&__title {
+		font-size: 3rem;
+		font-weight: 700;
+	}
+
 	&__description {
-		padding: 2rem;
+		height: 100%;
+
+		padding: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 
 		> * + * {
 			margin-top: 2rem;
 		}
+	}
+
+	&__date {
+		font-weight: 300;
 	}
 }

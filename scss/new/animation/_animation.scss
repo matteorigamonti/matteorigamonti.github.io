@@ -1,0 +1,29 @@
+.icon-arrow-down {
+	transition: transform 0.2s;
+	display: inline-block;
+
+	&:hover {
+		transform: translateY(5px);
+	}
+}
+
+.hi-emoji {
+	display: inline-block;
+	transform-origin: center;
+
+	animation-name: hi-animation;
+
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+
+@keyframes hi-animation {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(5deg);
+	}
+}
