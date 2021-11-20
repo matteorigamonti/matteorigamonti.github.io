@@ -1,4 +1,4 @@
-// GRANIM
+// Granim Init
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 if (prefersDarkScheme.matches) {
@@ -36,3 +36,36 @@ if (prefersDarkScheme.matches) {
 		},
 	});
 }
+
+// Smooth scroll anchor link
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+	anchor.addEventListener("click", function (e) {
+		e.preventDefault();
+
+		document.querySelector(this.getAttribute("href")).scrollIntoView({
+			behavior: "smooth",
+		});
+	});
+});
+
+// Swiper Init
+var swiper = new Swiper(".card-slider-container", {
+	spaceBetween: 25,
+	slidesPerView: 1,
+
+	breakpoints: {
+		768: {
+			slidesPerView: 2,
+		},
+		1024: {
+			slidesPerView: 3,
+		},
+	},
+
+	grabCursor: true,
+
+	pagination: {
+		el: ".swiper-pagination",
+		dynamicBullets: true,
+	},
+});

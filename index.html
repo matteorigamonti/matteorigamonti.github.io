@@ -13,15 +13,12 @@
 		<link rel="icon" type="image/ico" sizes="32x32" href="img/favicon/favicon-32x32.ico" />
 		<link rel="icon" type="image/ico" sizes="16x16" href="img/favicon/favicon-16x16.ico" />
 
-		<!-- Swiper JS -->
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
 		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/vendor/swiper.min.css" />
 		<link rel="stylesheet" href="css/main.min.css" />
 
 		<!-- Google Font -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180341014-1"></script>
@@ -36,7 +33,7 @@
 		</script>
 	</head>
 	<body>
-		<main class="overflow-x-hidden">
+		<main>
 			<!-- ########## Hero presentation ########## -->
 			<div class="splash-hero">
 				<div class="container">
@@ -61,7 +58,6 @@
 				</div>
 
 				<!-- Gradient morph -->
-
 				<canvas class="gradient-box" id="canvas-basic"></canvas>
 			</div>
 
@@ -69,7 +65,7 @@
 			<div id="works" class="container">
 				<h2>Lavori selezionati</h2>
 
-				<div class="card-slider-container">
+				<div class="swiper card-slider-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<a href="https://www.sogevasrl.com/" target="_blank" class="card">
@@ -157,40 +153,32 @@
 		</main>
 
 		<footer>
-			<a href="https://www.iubenda.com/privacy-policy/35281125" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
-			<script>
-				(function (w, d) {
-					var loader = function () {
-						var s = d.createElement("script"),
-							tag = d.getElementsByTagName("script")[0];
-						s.src = "https://cdn.iubenda.com/iubenda.js";
-						tag.parentNode.insertBefore(s, tag);
-					};
-					if (w.addEventListener) {
-						w.addEventListener("load", loader, false);
-					} else if (w.attachEvent) {
-						w.attachEvent("onload", loader);
-					} else {
-						w.onload = loader;
-					}
-				})(window, document);
-			</script>
+			<div class="container">
+				<a href="https://www.iubenda.com/privacy-policy/35281125" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
+				<script>
+					(function (w, d) {
+						var loader = function () {
+							var s = d.createElement("script"),
+								tag = d.getElementsByTagName("script")[0];
+							s.src = "https://cdn.iubenda.com/iubenda.js";
+							tag.parentNode.insertBefore(s, tag);
+						};
+						if (w.addEventListener) {
+							w.addEventListener("load", loader, false);
+						} else if (w.attachEvent) {
+							w.attachEvent("onload", loader);
+						} else {
+							w.onload = loader;
+						}
+					})(window, document);
+				</script>
+			</div>
 		</footer>
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<!-- <script src="js/jquery-3.5.1.slim.min.js"></script> -->
-		<!-- <script src="js/bootstrap.min.js"></script> -->
+		<!-- Vendor -->
+		<script src="js/vendor/granim.min.js"></script>
+		<script src="js/vendor/swiper-bundle.min.js"></script>
 
-		<!-- Scripts / init JS -->
-		<script src="js/scripts-init.js"></script>
-
-		<!-- Granim JS -->
-		<script src="/js/granim.min.js"></script>
-		<script src="js/granim-init.js"></script>
-
-		<!-- Swiper JS -->
-		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-		<script src="js/swiper-init.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
