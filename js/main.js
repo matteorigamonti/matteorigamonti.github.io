@@ -49,7 +49,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 // Swiper Init
-var swiper = new Swiper(".card-slider-container", {
+/* var swiper = new Swiper(".card-slider-container", {
 	spaceBetween: 25,
 	slidesPerView: 1,
 
@@ -68,4 +68,4 @@ var swiper = new Swiper(".card-slider-container", {
 		el: ".swiper-pagination",
 		dynamicBullets: true,
 	},
-});
+}); */
