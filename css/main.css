@@ -29,6 +29,34 @@ html {
   margin: auto;
 }
 
+.container--full {
+  max-width: 2400px;
+}
+
+.container--grid {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .container--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container--grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1800px) {
+  .container--grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
 *,
 *:after,
 *:before {
