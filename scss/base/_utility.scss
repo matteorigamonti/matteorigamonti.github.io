@@ -88,6 +88,10 @@ body {
 	display: flex;
 	flex-direction: row;
 	gap: 2rem;
+
+	span:not([class^="icon"]) {
+		display: none;
+	}
 }
 
 .img-fluid {

@@ -107,6 +107,10 @@ body {
   gap: 2rem;
 }
 
+.social-icon-container span:not([class^="icon"]) {
+  display: none;
+}
+
 .img-fluid {
   width: 100%;
   height: auto;
