@@ -82,6 +82,12 @@ body {
   color: #fff;
 }
 
+.splash-hero-container .icon-label {
+  position: absolute;
+  left: -50000px;
+  overflow: hidden;
+}
+
 .gradient-box {
   position: absolute;
   width: 100%;
@@ -105,10 +111,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-}
-
-.social-icon-container span:not([class^="icon"]) {
-  display: none;
 }
 
 .img-fluid {
