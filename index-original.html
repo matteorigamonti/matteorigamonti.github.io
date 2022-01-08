@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title page -->
+		<title>Matteo Rigamonti</title>
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.ico" />
+		<link rel="icon" type="image/ico" sizes="32x32" href="img/favicon/favicon-32x32.ico" />
+		<link rel="icon" type="image/ico" sizes="16x16" href="img/favicon/favicon-16x16.ico" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.min.css" />
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180341014-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-180341014-1");
+		</script>
+	</head>
+	<body>
+		<main>
+			<!-- ########## Hero presentation ########## -->
+			<div class="splash-hero">
+				<div class="container">
+					<div class="presentation row align-items-center vh-100 position-relative">
+						<div class="splash-hero-container">
+							<header class="fs-3">
+								<h2 class="fs-1">Ciao, mi chiamo Matteo <span class="hi-emoji">👋</span></h2>
+								<h1 class="fs-2">Front-end developer 👨‍💻,</h1>
+								<h3>ho collaborato con web agency e lavorato come freelance, realizzando siti internet sviluppandone la parte grafica e del codice con un’attenzione alla UX.</h3>
+							</header>
+							<div class="social-icon-container fs-2">
+								<a href="https://www.linkedin.com/in/matteo-rigamonti/" target="_blank" rel="noopener" class="text-decoration-none mr-4"><span class="icon-linkedin"></span></a>
+								<a href="mailto:matteo_rigamonti@hotmail.it" target="_blank" rel="noopener" class="text-decoration-none mr-4"><span class="icon-email"></span></a>
+								<a href="tel:+393486741003" class="text-decoration-none mr-4"><span class="icon-mobile"></span></a>
+							</div>
+							<a href="#works">
+								<span class="icon-arrow-down fs-2"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Gradient morph -->
+				<canvas class="gradient-box" id="canvas-basic"></canvas>
+			</div>
+
+			<!-- ########## Portfolio ########## -->
+			<div id="works" class="container">
+				<h2>Lavori selezionati</h2>
+			</div>
+
+			<div class="container container--grid container--full">
+				<!-- Prineos -->
+				<a href="https://prineos.com/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/prineos-thumbnail.webp" type="image/webp" />
+						<source srcset="img/prineos-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/prineos-thumbnail.jpg" alt="Prineos" />
+					</picture>
+					<div class="card__description" style="background-color: #2e2864">
+						<div class="card__title">Prineos</div>
+						<div class="card__date">2021</div>
+					</div>
+				</a>
+
+				<!-- Sogeva -->
+				<a href="https://www.sogevasrl.com/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/sogeva-thumbnail.webp" type="image/webp" />
+						<source srcset="img/sogeva-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/sogeva-thumbnail.jpg" alt="Sogeva srl" />
+					</picture>
+					<div class="card__description" style="background-color: #25823d">
+						<div class="card__title">Sogeva srl</div>
+						<div class="card__date">2020</div>
+					</div>
+				</a>
+
+				<!-- Luxury Wood -->
+				<a href="https://www.luxurywooditaly.it/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/luxury-wood-thumbnail.webp" type="image/webp" />
+						<source srcset="img/luxury-wood-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/luxury-wood-thumbnail.jpg" alt="Luxury Wood Italy" />
+					</picture>
+					<div class="card__description" style="background-color: #6c5837">
+						<div class="card__title">Luxury Wood Italy</div>
+						<div class="card__date">2019</div>
+					</div>
+				</a>
+
+				<!-- Pneumatici -->
+				<a href="http://pneumatici.autocogliati.it/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/pneumatici-autocogliati-thumbnail.webp" type="image/webp" />
+						<source srcset="img/pneumatici-autocogliati-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/pneumatici-autocogliati-thumbnail.jpg" alt="Pneumatici Autocogliati" />
+					</picture>
+					<div class="card__description" style="background-color: #dc332b">
+						<div class="card__title">Pneumatici Autocogliati</div>
+						<div class="card__date">2019</div>
+					</div>
+				</a>
+
+				<!-- Losa -->
+				<a href="http://losapierluigi.com/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/losa-pier-luigi-thumbnail.webp" type="image/webp" />
+						<source srcset="img/losa-pier-luigi-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/losa-pier-luigi-thumbnail.jpg" alt="Losa Pier Luigi" />
+					</picture>
+					<div class="card__description" style="background-color: #eb1f3e">
+						<div class="card__title">Losa Pier Luigi</div>
+						<div class="card__date">2018</div>
+					</div>
+				</a>
+
+				<!-- Casa -->
+				<a href="https://www.casapreziosissimosangue.it/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/casa-preziosissimo-sangue-thumbnail.webp" type="image/webp" />
+						<source srcset="img/casa-preziosissimo-sangue-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/casa-preziosissimo-sangue-thumbnail.jpg" alt="Casa Preziossissimo Sangue" />
+					</picture>
+					<div class="card__description" style="background-color: #722120">
+						<div class="card__title">Casa Preziossissimo Sangue</div>
+						<div class="card__date">2018</div>
+					</div>
+				</a>
+
+				<!-- Timack -->
+				<a href="http://timack.it/" target="_blank" rel="noopener" class="card">
+					<picture>
+						<source srcset="img/timack-thumbnail.webp" type="image/webp" />
+						<source srcset="img/timack-thumbnail.jpg" type="image/jpeg" />
+						<img class="img-fluid card__img" src="img/timack-thumbnail.jpg" alt="Timack srl" />
+					</picture>
+					<div class="card__description" style="background-color: #0099ff">
+						<div class="card__title">Timack srl</div>
+						<div class="card__date">
+							<small class="d-inline-block" style="margin-right: 0.5em">2017</small>
+						</div>
+					</div>
+				</a>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<a href="https://www.iubenda.com/privacy-policy/35281125" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a>
+				<script>
+					(function (w, d) {
+						var loader = function () {
+							var s = d.createElement("script"),
+								tag = d.getElementsByTagName("script")[0];
+							s.src = "https://cdn.iubenda.com/iubenda.js";
+							tag.parentNode.insertBefore(s, tag);
+						};
+						if (w.addEventListener) {
+							w.addEventListener("load", loader, false);
+						} else if (w.attachEvent) {
+							w.attachEvent("onload", loader);
+						} else {
+							w.onload = loader;
+						}
+					})(window, document);
+				</script>
+			</div>
+		</footer>
+
+		<!-- Vendor -->
+		<script src="js/vendor/granim.min.js"></script>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
