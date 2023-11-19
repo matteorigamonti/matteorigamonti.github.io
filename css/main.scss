@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap");
+
+body {
+  --theme-light: #fff;
+  --theme-dark: #0a0a0a;
+
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+
+  color: var(--theme-dark);
+  background: var(--theme-light);
+
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+
+  path {
+    fill: var(--theme-dark);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    --theme-light: #0a0a0a;
+    --theme-dark: #fff;
+  }
+}
+
+p {
+  text-wrap: balance;
+  max-width: 500px;
+}
+
+.hero {
+  padding-block: 3rem;
+
+  text-align: center;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.h1 {
+  font-weight: 300;
+}
+
+.smallTitle {
+  font-size: 0.8em;
+}
+
+.github {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+
+  width: 2.5rem;
+  height: 2.5rem;
+}
