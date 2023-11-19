@@ -10,6 +10,10 @@ body {
   color: var(--theme-dark);
   background: var(--theme-light);
 
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+
   path {
     fill: var(--theme-dark);
   }
@@ -20,13 +24,23 @@ body {
   }
 }
 
+p {
+  text-wrap: balance;
+  max-width: 500px;
+}
+
 .hero {
-  display: grid;
-  place-items: center;
+  padding-block: 3rem;
 
   text-align: center;
 
-  min-height: 100vh;
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
 
 .h1 {
